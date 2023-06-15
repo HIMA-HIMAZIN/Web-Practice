@@ -1,5 +1,25 @@
-header 
-{
-    background-color: beige;
-    
-}
+* {
+    margin: 0;
+    padding: 0; 
+   }
+   ul {
+     list-style:none;
+   }
+   div {
+     padding: 0 30px;
+   }
+   .header__inline_block{
+   background-color:#68abc4;
+   }
+   .header__inline_block h1{
+   display: inline-block;
+   }
+   .header__inline_block nav{
+   display: inline-block;
+   width: 94%;
+   text-align: right;
+   }
+   .header__inline_block nav ul li {
+   display: inline-block;
+   margin-left:20px;
+   }
